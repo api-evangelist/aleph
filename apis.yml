@@ -1,8 +1,27 @@
 aid: aleph
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aleph.png
 name: Aleph
-description: 'Aleph is a company surfaced as a portfolio company of bain-capital-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: ai-apps. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Aleph is an AI-native financial planning & analysis (FP&A) platform for finance
+  teams that want live data, spreadsheet-native workflows, automated reporting, and
+  AI-assisted analysis in one system. It consolidates data from ERP, HRIS, CRM,
+  billing, and databases through 200+ no-code connectors, offers bi-directional
+  Excel and Google Sheets add-ins, web dashboards, and an AI layer (Aleph
+  Intelligence, Aleph Agent, AI Variance Analysis, AI Mappings). Aleph also ships
+  an Aleph Agent MCP integration that brings governed financial data to Claude,
+  ChatGPT, Cursor, and other MCP-compatible tools. Backed by Bain Capital Ventures;
+  SOC 1 Type II and SOC 2 Type II certified.
 url: https://raw.githubusercontent.com/api-evangelist/aleph/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +35,12 @@ modified: '2026-07-17'
 tags:
 - Company
 - Ai Apps
+- FP&A
+- Finance
+- Financial Planning
+- Analytics
+- Spreadsheets
+- MCP
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,33 @@ maintainers:
 common:
 - type: Website
   url: https://www.getaleph.com/
+- type: Blog
+  url: https://www.getaleph.com/blog
+- type: GitHubOrganization
+  url: https://github.com/getaleph
+- type: Support
+  url: https://www.getaleph.com/platform/customer-success
+- type: SignUp
+  url: https://www.getaleph.com/trial
+- type: TermsOfService
+  url: https://www.getaleph.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.getaleph.com/privacy-policy
+- type: Integrations
+  url: https://www.getaleph.com/integrations
+- type: MCPServer
+  name: Aleph Agent MCP
+  url: mcp/aleph-mcp.yml
+- type: LLMsTxt
+  url: llms/aleph-llms.txt
+- type: Conformance
+  url: conformance/aleph-conformance.yml
+- type: Compliance
+  url: https://www.getaleph.com/platform/security
+- type: DomainSecurity
+  url: security/aleph-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

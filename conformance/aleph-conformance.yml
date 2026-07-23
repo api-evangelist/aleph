@@ -1,0 +1,29 @@
+generated: '2026-07-17'
+method: searched
+source: https://www.getaleph.com/platform/security
+standards:
+  - id: soc1-type-ii
+    name: SOC 1 Type II
+    conforms: true
+    evidence: 'security page states "Aleph is SOC I Type II and SOC II Type II certified"'
+  - id: soc2-type-ii
+    name: SOC 2 Type II
+    conforms: true
+    evidence: 'security page states "Aleph is SOC I Type II and SOC II Type II certified"'
+  - id: annual-penetration-test
+    name: Third-party penetration test (annual)
+    conforms: true
+    evidence: '"third-party penetration test conducted at least once a year"'
+  - id: continuous-monitoring
+    name: Continuous monitoring / annual audit
+    conforms: true
+    evidence: '"continuous monitoring and annually audited"'
+  - id: encryption-in-transit-at-rest
+    name: Encryption in transit (SSL/TLS) and at rest (AES)
+    conforms: true
+    evidence: 'AES for data at rest, SSL/TLS in transit'
+notes: >-
+  Certifications published on the public security page; security documentation
+  (reports) available to customers/prospects via CSM or contact form. Data
+  hosted on Google Cloud Platform. No public trust portal or bug-bounty program.
+subprocessors: https://www.getaleph.com/subprocessors
