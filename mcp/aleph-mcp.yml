@@ -5,34 +5,31 @@ source: https://www.getaleph.com/platform/ai/mcp
 server:
   name: Aleph Agent MCP
   vendor: Aleph (getaleph.com)
-  description: >-
-    Official Aleph Agent MCP integration that brings an FP&A team's trusted,
-    governed financial data to MCP-compatible AI clients. Connects Aleph's
-    consolidated data from ERP, CRM, HRIS and 200+ integrations so agents can
-    answer finance questions, generate connected spreadsheets and dashboards,
-    perform cross-system analysis, and run automated workflows against live,
-    structured financial data rather than exported CSVs.
-  # Aleph publishes this as a product/integration; no public hosted endpoint,
-  # transport, or self-serve install instructions are documented on the
-  # marketing page (access is via demo / free trial). Left null rather than
-  # fabricated.
+  description: Official Aleph Agent MCP integration that brings an FP&A team's trusted, governed financial
+    data to MCP-compatible AI clients. Connects Aleph's consolidated data from ERP, CRM, HRIS and 200+
+    integrations so agents can answer finance questions, generate connected spreadsheets and dashboards,
+    perform cross-system analysis, and run automated workflows against live, structured financial data
+    rather than exported CSVs.
   transport: null
   url: null
   clients:
-    - Claude
-    - ChatGPT
-    - Cursor
-    - any MCP-compatible tool
+  - Claude
+  - ChatGPT
+  - Cursor
+  - any MCP-compatible tool
 capabilities:
-  - Answer stakeholder questions using live financial data
-  - Generate connected spreadsheets with drill-down
-  - Create interactive dashboards from prompts
-  - Cross-system analysis across ERPs, CRMs, HRIS and 200+ integrations
-  - Context-aware financial commentary
-  - Automated workflows (e.g. Slack summaries)
+- Answer stakeholder questions using live financial data
+- Generate connected spreadsheets with drill-down
+- Create interactive dashboards from prompts
+- Cross-system analysis across ERPs, CRMs, HRIS and 200+ integrations
+- Context-aware financial commentary
+- Automated workflows (e.g. Slack summaries)
 related:
   cursor_plugin: https://github.com/getaleph/cursor-plugin
-notes: >-
-  No public OpenAPI is available for Aleph, so an MCP tool list cannot be
-  derived from operations; this record captures the officially published,
-  first-party Aleph Agent MCP product surface only.
+notes: No public OpenAPI is available for Aleph, so an MCP tool list cannot be derived from operations;
+  this record captures the officially published, first-party Aleph Agent MCP product surface only.
+deployment:
+  mode: unclear
+  verified: searched
+  checked: '2026-08-12'
+  source: catalog MCP census
